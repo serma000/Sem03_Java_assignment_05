@@ -3,50 +3,50 @@ package com.product.app;
 public class Product {
 
     //variable declaration
-    private int product_id;
-    private String product_name;
-    private String product_company;
-    private String product_price;
+    private int productId;
+    private String productName;
+    private String productCompany;
+    private String productPrice;
 
     //constructor
-    public Product(int product_id, String product_name, String product_company, String product_price) {
-        this.product_id = product_id;
-        this.product_name = product_name;
-        this.product_company = product_company;
-        this.product_price = product_price;
+    public Product(int productId, String productName, String productCompany, String productPrice) {
+        this.productId = productId;
+        this.productName = productName;
+        this.productCompany = productCompany;
+        this.productPrice = productPrice;
     }
 
     //getter and setter
 
-    public int getProduct_id() {
-        return product_id;
+    public int getProductId() {
+        return productId;
     }
 
-    public void setProduct_id(int product_id) {
-        this.product_id = product_id;
+    public void setProductId(int productId) {
+        this.productId = productId;
     }
 
-    public String getProduct_name() {
-        return product_name;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setProduct_name(String product_name) {
-        this.product_name = product_name;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
-    public String getProduct_company() {
-        return product_company;
+    public String getProductCompany() {
+        return productCompany;
     }
 
-    public void setProduct_company(String product_company) {
-        this.product_company = product_company;
+    public void setProductCompany(String productCompany) {
+        this.productCompany = productCompany;
     }
 
-    public String getProduct_price() {
-        return product_price;
+    public String getProductPrice() {
+        return productPrice;
     }
 
-    public void setProduct_price(String product_price) {
-        this.product_price = product_price;
+    public void setProductPrice(String productPrice) {
+        this.productPrice = productPrice;
     }
 }
